@@ -1,0 +1,206 @@
+body{
+    padding: 20px 20px 100px;
+    /* overflow: hidden; */
+}
+
+.draggable_div,.draggable_div1,.draggable_div2{
+    width:150px;
+    height: 150px;
+    background-color: red;
+    color: #ffffff;
+    border-radius: 4px;
+   text-align: center;
+   cursor: pointer;
+}
+
+
+#draggable_div4, #draggable_div5, #draggable_div6{
+    width:100px;
+    height:100px;
+    /* background-color: green;
+    color: #ffffff; */
+    border-radius: 4px;
+   text-align: center;
+   cursor: pointer;
+}
+
+
+#droppable_div1, #droppable_div2{
+    width:150px;
+    height: 150px;
+    /* background-color: red;
+    color: #ffffff; */
+    border-radius: 4px;
+   text-align: center;
+   cursor: pointer;
+
+}
+
+
+/* Resizable */
+
+  #resizable { width: 150px; height: 150px; padding: 0.5em; }
+  #resizable h3 { text-align: center; margin: 0; } 
+
+  #resizable_div1{
+    width: 150px;
+    height: 150px;
+    padding: 0.5em;
+  }
+  #resizable_div1{
+    text-align: center;
+     margin: 0;
+  }
+
+ .ui-resizable-helper {
+     border: 1px dotted gray;
+     }
+
+     /*  */
+ 
+ #resizable_div2{
+        width: 150px;
+        height: 150px;
+        padding: 0.5em;
+ }
+ #resizable_div2{
+        text-align: center;
+         margin: 0;
+ }
+    
+
+.ui-resizable-helper2 {
+     border: 1px dotted blue;
+}
+ 
+
+
+  .ui-resizable-se {
+     bottom: 17px;
+ }
+
+
+ /* resizable */
+
+
+ #feedback {
+   font-size: 1.4em;
+ }
+  #selectable .ui-selecting {
+     background: #FECA40;
+   }
+  #selectable .ui-selected {
+     background: #F39814; color: white;
+   }
+  #selectable {
+     list-style-type: none;
+      margin: 0; 
+      padding: 0;
+      width: 60%;
+   }
+  #selectable li {
+     margin: 3px;
+     padding: 0.4em;
+     font-size: 1.4em;
+   
+   }
+
+
+   /*  */
+
+
+  #selectable_div1 .ui-selecting {
+     background: #FECA40;
+   }
+  #selectable_div1 .ui-selected {
+     background: #F39814;
+     color: white;
+   }
+  #selectable_div1 { 
+     list-style-type: none;
+     margin: 0; padding: 0;
+     width: 450px;
+     overflow: hidden;
+   }
+  #selectable_div1 li {
+     margin: 3px;
+     padding: 1px;
+     float: left;
+     width: 100px;
+     height: 80px;
+     font-size: 50px;
+     text-align: center;
+   }
+
+
+
+/*  */
+
+#feedback { font-size: 1.4em; }
+#selectable_div2 .ui-selecting { background: #FECA40; }
+#selectable_div2 .ui-selected { background: #F39814; color: white; }
+#selectable_div2 { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+#selectable_div2 li { margin: 3px; padding: 0.4em; font-size: 1.4em; }
+
+
+/* sortable */
+
+
+ #feedback {
+  font-size: 1.4em;
+}
+ #sortable_div1 .ui-selecting {
+    background: #FECA40;
+  }
+ #sortable_div1 .ui-selected {
+    background: #F39814; color: white;
+  }
+ #sortable_div1 {
+    overflow: hidden;
+    list-style-type: none;
+     margin: 0; 
+     padding: 0;
+     width: 60%;
+     
+  }
+ #sortable_div1 li {
+    margin: 3px;
+    padding: 0.4em;
+    font-size: 1.4em;
+  }
+
+
+  /* connented sortable */
+  .connect_sortable{
+    overflow: hidden;
+  }
+
+  #sortable_div2, #sortable_div3 {
+    border: 1px solid #eee;
+    width: 142px;
+    min-height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    float: left;
+    margin-right: 10px;
+  }
+  #sortable_div2 li, #sortable_div3 li {
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    width: 120px;
+  }
+
+
+
+  /* grid sortable */
+
+  #sortable_grid {
+     overflow: hidden;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     width: 450px;
+   }
+  #sortable_grid li { margin: 3px 3px 3px 0; padding: 1px; float: left; width: 100px; height: 90px; font-size: 4em; text-align: center; }
